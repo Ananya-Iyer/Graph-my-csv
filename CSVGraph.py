@@ -4,6 +4,7 @@ import pyqtgraph as pg
 from pyqtgraph import PlotWidget, plot
 from PySide2 import QtGui, QtCore, QtWidgets
 
+
 class CSVGraph(QtWidgets.QWidget):
     def __init__(self, parent=None):
         QtWidgets.QWidget.__init__(self, parent)
